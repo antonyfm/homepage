@@ -1142,6 +1142,18 @@ ul.grid li a,ul.grid li img {
 	background: #fff url('../img/contact-bg-1.png') no-repeat;
 }
 
+.sm-font {
+    font-size: 14px;
+}
+
+.mini-font {
+    position:absolute;
+    float:right;
+    margin-top:2px;
+    margin-left:6px;
+    font-size: 12px;
+}
+
 .contact-lab {
 	background: #fff url('../img/contact-bg-2.png') no-repeat;
 	color: #fff;
@@ -1198,4 +1210,9 @@ ul.timeline .date {
 	left: 0;
 }
 
+}
+
+/* new */
+.rounded-border {
+    padding:1px;background:rgba(0,0,0,0.6);border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;
 }
