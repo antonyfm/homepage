@@ -41,16 +41,21 @@ $(document).ready(function(){
 	/*++++++++++++++++++++++++++++++++++++
 		click event on ul.timeline titles
 	++++++++++++++++++++++++++++++++++++++*/
-	$("ul.timeline").children().eq(0)
+	/*$("ul.timeline").children().eq(0)
 		.find(".text").slideDown()
-		.addClass("open");
+		.addClass("open");*/
 
 	$("ul.timeline").on("click","li", function(){
 		$this = $(this);
-		$this.find(".text").slideDown();
-		$this.addClass("open");
-		$this.siblings('li.open').find(".text").slideUp();
-		$this.siblings('li').removeClass("open");
+		if ($this.hasClass("open")){
+		    $this.find(".text").slideUp();
+		    $this.removeClass("open");
+		}else{
+		    $this.find(".text").slideDown();
+		    $this.addClass("open");
+		    $this.siblings('li.open').find(".text").slideUp();
+		    $this.siblings('li').removeClass("open");
+		}
 	}).on('mouseenter','li',function(){
 		$this = $(this);
 		var anim = new TweenLite($(this).find(".subject"),0.4,{'padding-left':20, paused:true});
