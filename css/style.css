@@ -81,7 +81,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 	position: absolute;
 	left: 0;
 	top: 0;
-	bottom: 45px;
+	bottom: 80px;
 	overflow: hidden;
 }
 
@@ -251,16 +251,22 @@ ul#navigation li .icon {
 	font-size: 27px;
 }
 
-.social-icons {
+.social {
 	position: absolute;
-	bottom: 0;
 	left: 0;
+	bottom: 0;
+	width: 250px;
+	height: 80px;
+}
+
+.social-icons {
+	position: relative;
 	width: 100%;
 	background: #202020;
 	border-top: 1px solid #1A1A1A;
 	width: 250px;
 	z-index: 2;
-	height: 45px;
+	height: 40px;
 }
 
 .social-icons ul {
@@ -271,7 +277,7 @@ ul#navigation li .icon {
 
 .social-icons li {
 	float: left;
-	width: 33%;
+	width: 25%;
 	padding: 10px;
 	text-align: center;
 }
@@ -375,18 +381,30 @@ ul#navigation li .icon {
 
 .biothumb{position: relative;}
 .biothumb .overlay{
+	visibility: hidden;
 	position: absolute;
 	width: 100%;
 	color:#fff;
 	bottom: 0;
 	background-color: black;
 	background-color: rgba(0,0,0,0.5);
-	padding:25px;
+	padding:10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
-.biothumb .overlay h1{
-	font-size: 45px;
+.biothumb .overlay h3{
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
+.biothumb .overlay .list-unstyled{
+	margin-bottom: 5px;
+}
+
+.biothumb .overlay ul li{
+	margin: 3px;
+	font-size: 13px;
+}
 
 /*************************************************
  *  uls
@@ -463,6 +481,9 @@ ul.ul-card li .description p.where {
 
 /* ul-dates
  **************************************************/
+.dates, .year {
+    font-size: 14px;
+}
 ul.ul-dates,ul.ul-dates-gray {
 	margin: 0;
 	padding: 0;
