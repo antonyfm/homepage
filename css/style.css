@@ -81,7 +81,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 	position: absolute;
 	left: 0;
 	top: 0;
-	bottom: 80px;
+	bottom: 100px;
 	overflow: hidden;
 }
 
@@ -277,6 +277,7 @@ ul#navigation li .icon {
 }
 
 .social-icons li {
+	height: 40px;
 	float: left;
 	width: 25%;
 	padding: 10px;
