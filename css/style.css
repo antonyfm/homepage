@@ -279,8 +279,9 @@ ul#navigation li .icon {
 .social-icons li {
 	height: 40px;
 	float: left;
-	width: 25%;
-	padding: 10px;
+	width: 20%;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	text-align: center;
 }
 
