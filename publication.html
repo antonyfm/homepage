@@ -5,7 +5,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="author" content="owwwlab.com">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        
+
         <meta name="description" content="A theme for faculty profile page" />
         <meta name="keywords" content="faculty profile, theme,css, html, jquery, transition, transform, 3d, css3" />
 
@@ -13,20 +13,20 @@
 
         <!--CSS styles-->
         <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">  
+        <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/perfect-scrollbar-0.4.5.min.css">
         <link rel="stylesheet" href="css/magnific-popup.css">
         <link rel="stylesheet" href="css/style.css">
         <link id="theme-style" rel="stylesheet" href="css/styles/custom.css">
 
-        
+
         <!--/CSS styles-->
         <!--Javascript files-->
         <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
         <script type="text/javascript" src="js/TweenMax.min.js"></script>
         <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
         <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
-        
+
         <script type="text/javascript" src="js/modernizr.custom.63321.js"></script>
         <script type="text/javascript" src="js/jquery.dropdownit.js"></script>
 
@@ -69,21 +69,21 @@
                                 <div class="icon fa fa-user fa-lg"></div>
                                 <div class="text">About Me</div>
                             </a>
-                            </li>  
+                            </li>
 
                             <li>
                             <a href="research.html">
                                 <div class="icon fa fa-book"></div>
                                 <div class="text">Research</div>
                             </a>
-                            </li> 
+                            </li>
 
                             <li class="currentmenu">
                             <a href="publication.html">
                                 <div class="icon fa fa-edit"></div>
                                 <div class="text">Publications</div>
                             </a>
-                            </li> 
+                            </li>
 
                             <li>
                             <a href="teaching.html">
@@ -113,10 +113,10 @@
                             </a>
                             </li>
                         </ul>
-                    </div>        
+                    </div>
                 </div>
 
-                <div class="social"> 
+                <div class="social">
                     <div class="social-icons">
                         <ul>
                             <li><a target="_blank" href="http://blog.yhwu.me">B</a></li>
@@ -141,30 +141,30 @@
             </div>
 
             <div id="main">
-            
+
                 <div id="publications" class="page">
                     <div class="page-container">
                         <div class="pageheader">
                             <div class="headercontent">
                                 <div class="section-container">
-                                    
+
                                     <h2 class="title">Selected Publications</h2>
                                     <div class="row">
                                         <div class="col-md-12">
                                             <p></p>
                                         </div>
                                     </div>
-                                    
+
                                 </div>
                             </div>
                         </div>
 
                         <div class="pagecontents">
-                            
+
                             <div class="section color-1" id="filters">
                                 <div class="section-container">
                                     <div class="row">
-                                        
+
                                         <div class="col-md-3">
                                             <h3>Filter by type:</h3>
                                         </div>
@@ -179,15 +179,52 @@
                                                 <option class="filter" value="tpaper">Technical Papers</option> -->
                                             </select>
                                         </div>
-                                        
+
                                         <div class="col-md-3" id="sort">
                                             <span>Sort by year:</span>
-                                            <div class="btn-group pull-right"> 
+                                            <div class="btn-group pull-right">
 
                                                 <button type="button" data-sort="data-year" data-order="desc" class="sort btn btn-default"><i class="fa fa-sort-numeric-asc"></i></button>
                                                 <button type="button" data-sort="data-year" data-order="asc" class="sort btn btn-default"><i class="fa fa-sort-numeric-desc"></i></button>
                                             </div>
-                                        </div>    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="section color-2" id="pub-grid">
+                                <div class="section-container">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="pitems">
+                                                <div class="item mix cpaper" data-year="2015">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="icon fa fa-plus-square-o"></i>
+                                                            </a>
+<!--                                                             <a href="http://www.sciencedirect.com/science/article/pii/S1057740812000290" class="tooltips" title="External link" target="_blank">
+                                                                <i class="icon-external-link"></i>
+                                                            </a> -->
+                                                            <a href="" class="tooltips" title="Download" target="_blank">
+                                                                <i class="icon fa fa-cloud-download"></i>
+                                                            </a>
+
+                                                        </div>
+
+                                                        <h4 class="pubtitle">Interactive Visual Summary of Major Communities in a Large Network</h4>
+                                                        <div class="pubauthor"><strong>Yanhong Wu</strong>,  Wenbin Wu, Sixiao Yang, Youliang Yan, Huamin Qu</div>
+                                                        <div class="pubcite"><span class="label label-warning">Conference Papers</span>PacificVis, 2015(Coming soon).</div>
+
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>The discovery and analysis of community structures have become an important topic in the fields of biology, society and computer science. In recent years, a lot of methods have been proposed to describe various community properties such as conductance and modularity. The study of community relations also reveals different community interaction patterns. Visualization has been widely used to help people better understand major communities in a large network. However, existing visualization methods mainly focus on depicting community structures themselves while community characteristics and fuzzy relations between communities are ignored. In this paper, we introduce a novel visualization method which allows people to explore, compare and refine communities. First, major communities in a large network are detected using data mining and community analysis methods. Then, the statistics and aggregation attributes of each community, the relational strength between major communities, and the important boundary nodes connecting those communities can be computed and stored. We propose a novel method based on Voronoi treemap to encode each community with a polygon and the relative positions of polygons encode their relational strengths. Different community attributes can be encoded by polygon shapes, sizes and colors. A corner-cutting method is further proposed to adjust the smoothness of polygons based on certain community attribute. To accommodate the boundary nodes connecting major communities, the gaps between the polygons are widened by a polygon-shrinking algorithm such that the boundary nodes can be conveniently embedded into the newly created spaces. The method is very efficient, enabling users to test different community detection algorithms, fine tune the results, and explore the fuzzy relations between communities interactively. The case studies with real data demonstrate that our visualization approach can provide a visual summary of major communities in a large network, and help people better understand the characteristics of each community and inspect various relational patterns between communities effectively.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -195,7 +232,7 @@
                     </div>
                 </div>
 
-                
+
             </div>
         </div>
     </body>
