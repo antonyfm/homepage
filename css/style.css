@@ -1247,3 +1247,11 @@ b {
     display: block;
     vertical-align: middle;
 }
+
+.hm {
+    margin-left: 5px;
+    font-size: small;
+    color: #e41a1c;
+    font-weight: normal;
+}
+
